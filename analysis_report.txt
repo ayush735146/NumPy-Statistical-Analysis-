@@ -1,0 +1,49 @@
+NUMPY STATISTICAL ANALYSIS
+==============================
+Dataset: Student Performance
+Standard deviation: population (ddof=0)
+Potential outliers: 1.5 × IQR rule
+
+Subject: Mathematics
+--------------------
+Observations: 12
+Mean: 78.33
+Median: 79.50
+Standard deviation: 11.71
+Minimum: 56.00
+Maximum: 95.00
+Q1: 70.75
+Q3: 88.25
+IQR bounds: 44.50 to 114.50
+Potential unusually high/low values: None detected
+Mean is less than median; low values may be pulling the average downward.
+
+Subject: Physics
+----------------
+Observations: 12
+Mean: 76.58
+Median: 76.00
+Standard deviation: 9.00
+Minimum: 61.00
+Maximum: 91.00
+Q1: 69.75
+Q3: 84.50
+IQR bounds: 47.62 to 106.62
+Potential unusually high/low values: None detected
+Mean is greater than median; high values may be pulling the average upward.
+
+Subject: Computer Science
+-------------------------
+Observations: 12
+Mean: 84.50
+Median: 87.00
+Standard deviation: 9.57
+Minimum: 65.00
+Maximum: 98.00
+Q1: 79.00
+Q3: 91.50
+IQR bounds: 60.25 to 110.25
+Potential unusually high/low values: None detected
+Mean is less than median; low values may be pulling the average downward.
+
+Note: IQR flags are only indicators for review, not proof of incorrect data.
